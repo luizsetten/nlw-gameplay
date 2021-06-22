@@ -11,6 +11,7 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 24,
     flexDirection: 'row',
     justifyContent: 'space-between',
+    alignItems: 'center',
     marginTop: getStatusBarHeight() + 26,
     marginBottom: 42
   }
