@@ -40,8 +40,9 @@ export const styles = StyleSheet.create({
     borderRadius: 3,
   },
   title: {
-    fontFamily: theme.fonts.title500,
+    fontFamily: theme.fonts.title700,
     color: theme.colors.heading,
-    fontSize: 15
+    fontSize: 15,
+    marginTop: 15
   }
 });
