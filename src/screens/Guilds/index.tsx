@@ -16,6 +16,12 @@ export function Guilds({ handleGuildSelet }: Props) {
       name: 'lendarios',
       icon: "null",
       owner: true
+    },
+    {
+      id: '2',
+      name: 'lendarios',
+      icon: "null",
+      owner: true
     }
   ]
 
