@@ -22,6 +22,42 @@ export function Guilds({ handleGuildSelet }: Props) {
       name: 'lendarios',
       icon: "null",
       owner: true
+    },
+    {
+      id: '3',
+      name: 'lendarios',
+      icon: "null",
+      owner: true
+    },
+    {
+      id: '4',
+      name: 'lendarios',
+      icon: "null",
+      owner: true
+    },
+    {
+      id: '5',
+      name: 'lendarios',
+      icon: "null",
+      owner: true
+    },
+    {
+      id: '6',
+      name: 'lendarios',
+      icon: "null",
+      owner: true
+    },
+    {
+      id: '7',
+      name: 'lendarios',
+      icon: "null",
+      owner: true
+    },
+    {
+      id: '8',
+      name: 'lendarios',
+      icon: "null",
+      owner: true
     }
   ]
 
@@ -37,7 +73,9 @@ export function Guilds({ handleGuildSelet }: Props) {
           />
         )}
         showsVerticalScrollIndicator={false}
-        ItemSeparatorComponent={() => <ListDivider />}
+        contentContainerStyle={{ paddingBottom: 68, paddingTop: 103 }}
+        ListHeaderComponent={() => <ListDivider isCentered/>}
+        ItemSeparatorComponent={() => <ListDivider isCentered/>}
         style={styles.guilds}
       />
     </View>
